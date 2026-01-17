@@ -1,0 +1,10 @@
+# Exception Log File
+
+This file is for logging exceptions in the YaazhviTraders React application.
+
+For production deployment on Vercel, exceptions will be logged to the browser console and can be viewed in the Vercel dashboard under Runtime Logs.
+
+Local development: Errors are logged to the browser console. To log to file, you can run the development server and redirect output, but typically, use browser dev tools.
+
+Unhandled errors and React component errors are caught and logged via ErrorBoundary and global error handler.
+
