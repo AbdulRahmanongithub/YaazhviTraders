@@ -1,4 +1,5 @@
-﻿import React, { useState, useEffect } from "react";
+﻿/* eslint-disable unicode-bom */
+import React, { useState, useEffect } from "react";
 import "../assets/css/contact.css";
 import Spinner from "../components/Spinner";
 import { toast, ToastContainer } from "react-toastify";

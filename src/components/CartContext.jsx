@@ -13,7 +13,7 @@ export const CartProvider = ({ children }) => {
           item.size === product.size
       );
 
-      // ✅ If product already exists → increase quantity
+      // If product already exists → increase quantity
       if (existingIndex !== -1) {
         const updatedCart = [...prevCart];
 
@@ -28,7 +28,7 @@ export const CartProvider = ({ children }) => {
         return updatedCart;
       }
 
-      // ✅ If new product → add to cart
+      // If new product → add to cart
       return [
         ...prevCart,
         {

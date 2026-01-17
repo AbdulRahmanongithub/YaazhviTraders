@@ -61,7 +61,7 @@ function Footer() {
                         <div className="col-lg-6 col-md-12">
                             <p>
                                 Copyrights &copy; 2026 -{' '}
-                                <a href="">YaazhviTraders</a>, All Rights
+                                <span>YaazhviTraders</span>, All Rights
                                 Reserved.
                             </p>
                         </div>
@@ -69,29 +69,29 @@ function Footer() {
                             <div className="social-icons">
                                 <ul>
                                     <li>
-                                        <a href="#" target="_blank" rel="noreferrer">
+                                        <button className="social-btn" aria-label="Facebook">
                                             <i className="fab fa-facebook-f" />
-                                        </a>
+                                        </button>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" rel="noreferrer">
+                                        <button className="social-btn" aria-label="Twitter">
                                             <i className="fab fa-twitter" />
-                                        </a>
+                                        </button>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" rel="noreferrer">
+                                        <button className="social-btn" aria-label="Instagram">
                                             <i className="fab fa-instagram" />
-                                        </a>
+                                        </button>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" rel="noreferrer">
+                                        <button className="social-btn" aria-label="LinkedIn">
                                             <i className="fab fa-linkedin" />
-                                        </a>
+                                        </button>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" rel="noreferrer">
+                                        <button className="social-btn" aria-label="Dribbble">
                                             <i className="fab fa-dribbble" />
-                                        </a>
+                                        </button>
                                     </li>
                                 </ul>
                             </div>

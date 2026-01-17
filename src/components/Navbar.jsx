@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import '../assets/css/Navbar.css';
 import { NavLink, useLocation } from "react-router-dom"; // changed: add useLocation
 // import Logo from "../assets/img/NN_Logo.png";
@@ -34,8 +34,6 @@ const Navbar = () => {
       setMenuOpen(false);
     }
   }, [location]); // added
-
-  const closeMenu = () => setMenuOpen(false);
 
   return (
   <>

@@ -1,8 +1,6 @@
-import { useCart } from "./CartContext";
+import React from "react";
 
 const ProductCard = ({ product, onView }) => {
-  const { addToCart } = useCart();
-
   return (
     <div className="product-card">
       <img src={product.image} alt={product.name} />

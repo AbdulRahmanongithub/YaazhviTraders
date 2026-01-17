@@ -4,7 +4,7 @@ import "../assets/css/CartModal.css";
 const CartModal = ({ onClose }) => {
   const { cart, removeFromCart } = useCart();
 
-  // ✅ Total price
+ 
   const totalPrice = cart.reduce(
     (sum, item) => sum + item.totalPrice,
     0
@@ -75,7 +75,7 @@ const CartModal = ({ onClose }) => {
           )}
         </div>
 
-        {/* ✅ STICKY FOOTER */}
+        {/* STICKY FOOTER */}
         {cart.length > 0 && (
           <div className="cart-modal-footer">
             <p className="total-price">

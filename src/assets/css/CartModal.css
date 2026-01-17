@@ -28,7 +28,7 @@
   padding-bottom: 120px; /* space for footer */
 }
 
-/* ✅ Sticky Footer */
+/* Sticky Footer */
 .cart-modal-footer {
   position: sticky;
   bottom: 0;

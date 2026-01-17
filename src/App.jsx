@@ -8,9 +8,7 @@ import HomePage from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
 import Products from './pages/Products.jsx';
-import WhatsAppButton from './components/WhatsAppButton';
 import { ToastContainer } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
 import { CartProvider } from './components/CartContext.jsx';
 import CartModal from './components/CartModal.jsx';
 import FloatingCart from './components/FloatingCart.jsx';
@@ -33,6 +31,7 @@ function App() {
 
     <Footer />
 
+
               {/* Floating Cart */}
               {!cartOpen && (
                   <FloatingCart onClick={() => setCartOpen(true)} />
@@ -42,6 +41,8 @@ function App() {
               {cartOpen && (
                   <CartModal onClose={() => setCartOpen(false)} />
               )}
+
+    <ToastContainer />
   </Router>
 </CartProvider>
 

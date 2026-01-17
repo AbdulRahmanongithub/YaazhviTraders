@@ -1,4 +1,5 @@
-﻿import { useRef, useEffect, useState } from "react";
+﻿/* eslint-disable unicode-bom */
+import { useRef, useEffect, useState } from "react";
 import "../assets/css/ProductSlider.css";
 import Spacer from '../components/Spacer.jsx';
 
@@ -93,7 +94,7 @@ const ProductSlider = ({ products = [] }) => {
           ))}
               </div>
           </div>
-           <Spacer height="10px" /> 
+           <Spacer height="10px" />
           <div className="text-center mt-3">
               <a href="/products" className="btn-brand">
                   View More Products

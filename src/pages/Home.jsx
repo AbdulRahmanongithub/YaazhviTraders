@@ -1,4 +1,4 @@
-﻿import { React } from 'react';
+﻿/* eslint-disable unicode-bom */
 import '../assets/css/Navbar.css';
 import Fresh from "../assets/img/Fresh_Poster.jpg";
 import Juice from "../assets/img/3Juice_Poster.png";
@@ -75,8 +75,8 @@ export default function HomePage() {
                             Elite dry fruits and nuts chosen for those who expect the best.Sourced with care, crafted to deliver timeless quality and refined taste.
                         </p>
                         <div class="hero-buttons">
-                        <a href="#" class="btn-brand">Shop Now</a>
-                            <a href="#" class="btn-outline">Explore</a>
+                        <button class="btn-brand">Shop Now</button>
+                            <button class="btn-outline">Explore</button>
                         </div>
                     </div>
 
